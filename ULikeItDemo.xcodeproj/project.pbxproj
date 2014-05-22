@@ -67,7 +67,6 @@
 		5D7F5EDD192DF7D100A3E58D /* Networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Networking.h; sourceTree = "<group>"; };
 		5D7F5EE4192DF8BA00A3E58D /* UDErrorDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UDErrorDescriptor.h; sourceTree = "<group>"; };
 		5D7F5EE5192DF8BA00A3E58D /* UDErrorDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UDErrorDescriptor.m; sourceTree = "<group>"; };
-		5D7F5EED192E308A00A3E58D /* Notifications.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Notifications.h; path = Auxiliary/Notifications.h; sourceTree = "<group>"; };
 		5D7F5EEE192E312300A3E58D /* UDVoteImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UDVoteImageManager.h; path = VoteImageLaoder/UDVoteImageManager.h; sourceTree = "<group>"; };
 		5D7F5EEF192E312300A3E58D /* UDVoteImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UDVoteImageManager.m; path = VoteImageLaoder/UDVoteImageManager.m; sourceTree = "<group>"; };
 		5D7F5EF2192E317500A3E58D /* UDImageLaoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UDImageLaoder.h; path = VoteImageLaoder/UDImageLaoder.h; sourceTree = "<group>"; };
@@ -260,7 +259,6 @@
 				5D7F5EF9192E3E5E00A3E58D /* UDPreloadManager.h */,
 				5D7F5EF6192E3E5100A3E58D /* UDPreloadManager.m */,
 				5D7F5EF7192E3E5100A3E58D /* Notifications.h */,
-				5D7F5EED192E308A00A3E58D /* Notifications.h */,
 			);
 			name = Auxiliary;
 			sourceTree = "<group>";

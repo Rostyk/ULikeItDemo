@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
+/*places preload view to any view*/
 @interface UDPreloadManager : NSObject
 
 -(void) addPreloadToView: (UIView*) view spinnerOffset: (int) spinnerOffsetY;

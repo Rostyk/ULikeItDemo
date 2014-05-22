@@ -55,6 +55,7 @@
         person.image = (UIImage*)responseObject;
         imagesLoaded++;
         
+        /*got all the images*/
         if(imagesLoaded == [self.guys count]) {
             [self.delegate allDataRetrieved: self.guys];
         }
@@ -70,6 +71,7 @@
 #pragma mark Erro Alerts
 -(void) produceAlertWithMessage: (NSString*) message {
     [[[UIAlertView alloc] initWithTitle:@"" message: message delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil] show];
+    /*ideally we should notify the ViewController that waits for iamges that certain images are lost while loading and pass only valid ones to our swipe control*/
 }
 
 
