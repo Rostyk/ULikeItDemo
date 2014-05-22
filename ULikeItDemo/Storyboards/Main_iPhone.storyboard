@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="KHP-7T-7pn">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="hcn-qU-t3a">
+            <objects>
+                <tabBarController definesPresentationContext="YES" id="KHP-7T-7pn" sceneMemberID="viewController">
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="Fos-h0-U0m">
+                        <rect key="frame" x="129" y="330" width="163" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="YMo-eO-cRN" kind="relationship" relationship="viewControllers" id="KpS-J4-snZ"/>
+                        <segue destination="PsR-xQ-u7E" kind="relationship" relationship="viewControllers" id="IOC-Ov-fBE"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="84b-a8-1oq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-690" y="317"/>
+        </scene>
+        <!--Choose Person View Controller - Vote-->
+        <scene sceneID="91l-7U-3eI">
+            <objects>
+                <viewController id="YMo-eO-cRN" customClass="ChoosePersonViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uHM-qn-baI"/>
+                        <viewControllerLayoutGuide type="bottom" id="zyc-vM-dnW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IV6-we-Gp9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" tag="1" title="Vote" image="tab_vote" id="GLS-0J-uyE"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VuC-6N-P9b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-188" y="32"/>
+        </scene>
+        <!--View Controller - Extras-->
+        <scene sceneID="Okr-vj-RK9">
+            <objects>
+                <viewController id="PsR-xQ-u7E" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HXL-aY-5pv"/>
+                        <viewControllerLayoutGuide type="bottom" id="PxU-K2-j6a"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nZO-gJ-8X8">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Extras" image="tab_extra" id="sZX-xh-bi7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bAd-rf-fnz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-169" y="712"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tab_extra" width="26" height="26"/>
+        <image name="tab_vote" width="26" height="26"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
